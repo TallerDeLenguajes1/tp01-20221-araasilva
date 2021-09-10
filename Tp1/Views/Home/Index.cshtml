@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="text-center">
+    <h2>Problema 1</h2>
+    <h4>Devuelve el cuadrado de un numero</h4>
+    <form asp-action="Problema01" method="post">
+        <label for="num">Numero:<input type="text" id="num" name="num" /></label>
+        <input type="submit" value="enviar" />
+    </form>
+</div>
+
+<div class="text-center">
+    <h2>Problema 2</h2>
+    <h4>Devuelve la division de dos numeros.</h4>
+    <form asp-action="Problema02" method="post">
+        <label for="num1">Numeros<input type="text" id="num1" name="num1" /></label>
+        <label for="num2">/<input type="text" id="num2" name="num2" /></label>
+        <input type="submit" value="enviar" />
+    </form>
+</div>
+
+<div class="text-center">
+    <h2>Problema 3</h2>
+    <h4>Lista de provincias</h4>
+    <form asp-action="Problema03" method="post">
+
+        <input type="submit" value="ver" />
+    </form>
+</div>
+
+<div class="text-center">
+    <h2>Problema 4</h2>
+    <p>Devuelve la division de dos numeros.</p>
+    <form asp-action="Problema04" method="post">
+        <label for="km">kilometros: <input type="text" id="km" name="km" /></label>
+        <label for="lt">Gasolina:<input type="text" id="lt" name="lt" /></label>
+        <input type="submit" value="enviar" />
+    </form>
+</div>
